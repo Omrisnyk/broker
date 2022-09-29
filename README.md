@@ -347,7 +347,7 @@ are mandatory to configure the Broker client:
 - `BROKER_TOKEN` - The Snyk Broker token, obtained from your Container registry integration settings (app.snyk.io).
 - `BROKER_CLIENT_URL` - The URL of your broker client (including scheme and - port) used by container registry agent to call back to Snyk.
 - `CR_AGENT_URL` - The URL of your container registry agent (including scheme and - port) to which brokered requests would be forwarded.
-- `CR_TYPE` - The container registry type as listed in supporter registries, for example "DockerHub", "GoogleCR", "ArtifactoryCR".
+- `CR_TYPE` - The container registry type as listed in supporter registries, for example "DockerHub", "GoogleCR", "ArtifactoryCR" (type should be all        in lower characters, i.g artifactory-cr)
 - `CR_BASE` - The hostname of the container registry api to connect to, for example: "cr.host.com".
 - `CR_USERNAME` - The username for authenticating to container registry api. Not used for DigitalOcean container registry.
 - `CR_PASSWORD` - The password for authenticating to container registry api. Not used for DigitalOcean container registry.
